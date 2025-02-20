@@ -21,3 +21,6 @@ def check_anagram(string1, string2):
 
 ans = check_anagram("silent","listen")
 print(ans)
+
+
+
