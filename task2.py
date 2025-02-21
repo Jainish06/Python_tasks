@@ -46,12 +46,12 @@ for key, value in student_dict.items():
     else:
         sub_dict[subs] = value
 
-
+sorted_dict = {k: v for k, v in sorted(total_dict.items(), key=lambda item: item[1], reverse=True)}
 
 print(total_dict)
 print(count_dict)
 print(sub_dict)
-
+print(sorted_dict)
 
 
 
